@@ -21,6 +21,7 @@ module Method : sig
     | `Other of string ]
 
   val compare : t -> t -> int
+  val body_allowed : t -> bool
   val of_string : string -> t
   val to_string : t -> string
   val pp : Format.formatter -> t -> unit

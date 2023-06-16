@@ -370,7 +370,7 @@
   (cohttp
    (= :version))
   (eio
-   (>= 0.7))
+   (>= 0.10))
   (eio_main :with-test)
   (mdx :with-test)
   (uri :with-test)
